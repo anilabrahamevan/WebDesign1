@@ -1,55 +1,55 @@
-@charset 'UTF-8' ;
-
-html,
-body * {
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color:#EDF5E1;
-    text-align: center;
-    
-     }
 
 .con {
+    width: 100%;
+    display: flex;
     color: white;
     background-color: #5CDB95;
     overflow: auto;
+    position: sticky;
+    top:0;
 }
 
+
 .main {
-    width:50rem;
+    width:80%;
     padding: 1rem;
     margin: auto;
     display: flex;
 }
 
 .name {
-    width: 15rem;
+    width: 50%;
     text-align: left;
     color: #05386b;
     font-size: 1.5rem;
+    width: 50%;
+    display: flex;
+    margin:  auto;
 }
 
 .links {
-    width: 35rem;
+    width: 50%;
+    position: relative;
+    right: 0;
+    font-size: 1.3rem;
     display: flex;
+    margin:  auto;
     justify-content: right;
-    font-size: 1.2rem;
 }
+
 
 a {
     color: white  ;
     text-decoration: none;
     margin-left:  2.5rem;
+ }
+
+ a:hover {
+    
+    background-color: #000000;
+   
+    overflow: unset;
+
  }
 
  a:focus {
@@ -169,4 +169,5 @@ a {
 
 .con1 {
     animation: transition 3s;
+    
 }

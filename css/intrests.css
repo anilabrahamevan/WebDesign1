@@ -25,12 +25,6 @@ body {
     overflow: hidden;
 }
 
-.main {
-    width:50rem;
-    padding: 1rem;
-    margin: auto;
-    display: flex;
-}
 .main1 {
     width:50rem;
     padding: 1rem;
@@ -45,12 +39,6 @@ body {
     font-size: 1.5rem;
 }
 
-.links {
-    width: 35rem;
-    display: flex;
-    justify-content: right;
-    font-size: 1.2rem;
-}
 
 a {
     color: white  ;
