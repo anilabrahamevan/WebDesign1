@@ -1,0 +1,144 @@
+@charset 'UTF-8' ;
+
+html,
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#EDF5E1;
+    text-align: center;
+    
+     }
+
+.itemsfam1 img {
+    width: 100%;
+   
+}     
+
+.itemsfam1 {
+    width: 20rem;
+    overflow: hidden;
+}
+
+.main5 {
+    width:70rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+}
+
+
+.Bodyfam {
+    width: 25rem;
+    display: flex;
+    margin: 0 auto ;
+    overflow: auto ;
+}
+
+.line5   {
+        border-bottom: .2rem solid #954e9e ;
+        width: 5.2rem;
+        margin: auto;
+        padding-top: .32rem;
+        opacity: 70%;
+}  
+
+.write1 {
+    margin-left: 2rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.write2 {
+    margin-right: 2rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.heart {
+    color: red;
+    margin-left: 2rem;
+    }
+
+.love
+  {
+    margin-left: 20rem;
+  }    
+
+.line7 {
+    border-bottom: .2rem solid #000000 ;
+            width: 10rem;
+            margin: 3rem auto;
+            padding-top: .32rem;
+            opacity: 20%;
+}
+
+.esther {
+    color: rgb(136, 39, 184);
+    overflow: auto;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.eric {
+    color: rgb(136, 39, 184);
+    overflow: auto;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.title3 {
+    width: 50rem ;
+    color: #b96cbc;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    margin: 2rem auto 0 auto;
+    animation: transitionfm 2s;
+     }
+
+
+@keyframes transitionfm {
+    from {
+        opacity: 0;
+        transform: translateX(2rem);
+         
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+   }
+
+  @keyframes transitionfma {
+    from {
+        transform: translateY(-8rem);
+        
+         
+    }
+    
+    to {
+        transform: translateY(0rem);
+        
+    }
+   }
+
+
+.main5 {
+     animation: transitionfm 3s;
+}
+
+.itemsfam1:hover {
+    animation: transitionfma 3s;
+}

@@ -1,0 +1,172 @@
+@charset 'UTF-8' ;
+
+html,
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#EDF5E1;
+    text-align: center;
+    
+     }
+
+.con {
+    color: white;
+    background-color: #5CDB95;
+    overflow: auto;
+}
+
+.main {
+    width:50rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+}
+
+.name {
+    width: 15rem;
+    text-align: left;
+    color: #05386b;
+    font-size: 1.5rem;
+}
+
+.links {
+    width: 35rem;
+    display: flex;
+    justify-content: right;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white  ;
+    text-decoration: none;
+    margin-left:  2.5rem;
+ }
+
+ a:focus {
+    color: #2277cc ;
+    transform: scale(1.2);
+ }
+
+ .main1 {
+    width:60rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+
+ }
+
+ .title1 {
+    width: 50rem ;
+    color: #b867bb;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    margin: 2rem auto 0 auto;
+    border-bottom: .2rem solid #834992 ;
+    animation: transition 3s;
+     }
+
+ .Body {
+    width: 50rem;
+    display: flex;
+    margin: 0 auto 2.5rem auto;
+    overflow: auto ;
+ }
+
+ .itemleft {
+    width: 10rem;
+    margin: 1rem auto;
+ }
+
+
+ .items {
+    margin: 0 .1rem .6rem auto;
+ }
+
+.items:hover {
+    animation: transitionhm 3s;
+}
+
+ .items img {
+    width: 100%;
+ }
+
+.para {
+    width: 50rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: left;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paras {
+    border-bottom: .2rem solid #9446ac ;
+    width: 10rem;
+    margin: 0 0 0 20rem ;
+    padding-top: 2rem;
+    opacity: 40%;
+}
+
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: translateY(5rem);
+    
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+
+}
+
+@keyframes transition1 {
+    from {
+        transform: translateY(0rem);
+    
+    }
+    
+    to {
+        transform: translateY(-1rem);
+    }
+
+}
+
+@keyframes transitionhm {
+    from {
+        transform: translateX(0rem);
+    
+    }
+    
+    to {
+        transform: translateX(-1.5rem);
+    }
+
+}
+.main1 {
+     animation: transition 3s;
+}
+.main2 {
+    animation: transition 3s;
+}
+.main3 {
+    animation: transition 3s;
+}
+
+.con1 {
+    animation: transition 3s;
+}

@@ -1,0 +1,140 @@
+@charset 'UTF-8' ;
+
+html,
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#EDF5E1;
+    text-align: center;
+    
+     }
+
+.con1 {
+    background-color: #5CDB95;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.main {
+    width:50rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+}
+.main1 {
+    width:50rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+}
+
+.name {
+    width: 15rem;
+    text-align: left;
+    color: #05386b;
+    font-size: 1.5rem;
+}
+
+.links {
+    width: 35rem;
+    display: flex;
+    justify-content: right;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white  ;
+    text-decoration: none;
+    margin-left:  2.5rem;
+ }
+
+ a:focus {
+    color: #2277cc ;
+    transform: scale(1.2);
+ }
+
+ .main2 {
+    width:60rem;
+    padding: 1rem;
+    margin: auto ;
+    display: flex;
+ }
+
+ .main3 {
+    width:50rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+ }
+
+ .itemsfam {
+    margin: 1rem auto;
+    overflow: auto;
+    background-color: #90d8b1;
+ }
+
+ .itemsfam img {
+    width: 100%;
+    padding: .5rem ;
+ }
+
+ .title2 {
+    width: 50rem ;
+    color: #b96cbc;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    margin: 2rem auto 0 auto;
+    animation: transition 3s;
+     }
+
+.line2 {
+    border-bottom: .2rem solid #954e9e ;
+    width: 10.5rem;
+    margin: auto;
+    padding-top: .32rem;
+    opacity: 70%;
+     }
+
+.line3 {
+        border-bottom: .2rem solid #954e9e ;
+        width: 4rem;
+        margin: auto;
+        padding-top: .32rem;
+        opacity: 70%;
+         }
+
+.line4 {
+            border-bottom: .2rem solid #000000 ;
+            width: 10rem;
+            margin: 3rem auto;
+            padding-top: .32rem;
+            opacity: 20%;
+             }
+    
+
+.Body1 {
+    width: 50rem;
+    display: flex;
+    margin: 0 auto ;
+    overflow: auto ;
+}
+
+.itemsfam:hover {
+    animation: transition1 3.5s;
+}
+.par
+ {
+    font-weight: lighter;
+ }
